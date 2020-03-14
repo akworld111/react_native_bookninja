@@ -1,0 +1,14 @@
+source 'https://github.com/cocoapods/specs'
+
+# min version for TwilioVoice to work
+platform :ios, '9.0'
+
+target ‘BookingNinjasSales’ do
+  use_frameworks!
+  pod 'TwilioVoice', '~> 2.1.0'
+  pod 'Crashlytics'
+  # pod 'ReactNativeFabric', :path => '../../node_modules/react-native-fabric'
+
+#  pod 'RNTwilioVoice', path: '../../node_modules/react-native-twilio-programmable-voice'
+
+end
